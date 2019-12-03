@@ -30,9 +30,9 @@ int tamanhoArray(void){
 }
 
 int main() {
-  n = tamanhoArray();
-  floatArr = floatArray(n);
-  counter = negativos(n, floatArr);
+  int n = tamanhoArray();
+  float* floatArr = floatArray(n);
+  int counter = negativos(n, floatArr);
   printf("O vetor tem %d números negativos.\n", counter);
   return 0;
 }
